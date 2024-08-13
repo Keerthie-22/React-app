@@ -1,0 +1,101 @@
+            .div1 h1{
+                color:aqua;
+                background-color:black;
+            }
+            .div2 h1{
+                color:blue;
+                background-color:fuchsia;
+            }
+            section.s1 h2{
+                color:brown;
+            }
+            section.s2 h2{
+                color:rgb(95, 42, 165);
+            }
+            .menu {
+                display:flex;
+                flex-direction:row;
+            }
+            .menu li{
+                margin: 10px;
+            }
+            .active{
+                background-color:aquamarine;
+            }
+            footer{
+                text-align: center;
+            }
+            .row{
+                display: flex;
+                flex-direction:row;
+            }
+            .row div{
+                height: 25vh;
+                width: 35%;
+                margin: 10px;
+                border: 1px solid black;
+            }
+            @media(max-device-width:600px){
+                    .menu{
+                        flex-direction: column;
+                    }
+                    .row{
+                        flex-direction: column;
+                    }
+                    .row div{
+                        width:100%;
+                    }
+                    .row div img{
+                        width: 100%;
+                    }
+                    body{
+                        background-color: #00ff00;
+                    }
+                } 
+                .login{
+                    background-color: white;
+                    padding: 20px;
+                    border-radius: 8px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    width: 300px;
+                    text-align: center;
+                }
+                
+                h2 {
+                    margin-bottom: 20px;
+                    text-align: center;
+                }
+                
+                .input-group {
+                    margin-bottom: 15px;
+                    text-align: left;
+                }
+                
+                .input-group label {
+                    display: block;
+                    margin-bottom: 5px;
+                }
+                
+                .input-group input {
+                    width: 100%;
+                    padding: 8px;
+                    box-sizing: border-box;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                }
+                
+                button {
+                    width: 40%;
+                    padding: 10px;
+                    background-color: #2f2e2e;
+                    color: white;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                    text-align: center;
+                }
+                
+                button:hover {
+                    background-color: #2c2d2c;
+                    text-align: center;
+                }

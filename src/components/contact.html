@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>CSS Class</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .div1 h1{
+                color:aqua;
+                background-color:black;
+            }
+            .div2 h1{
+                color:blue;
+                background-color:fuchsia;
+            }
+            section.s1 h2{
+                color:brown;
+            }
+            section.s2 h2{
+                color:rgb(95, 42, 165);
+            }
+            .menu {
+                display:flex;
+                flex-direction:row;
+            }
+            .menu li{
+                margin: 10px;
+            }
+        </style>
+
+    </head>
+    <body>
+    
+       
+        <ul class="menu">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+<h1>contact page</h1>
+    <div class="row">
+        <div class="col1">
+            <img src="logo.svg" height="100%" width="100%">
+        </div>
+        <div class="col2">
+                <h2>Login</h2>
+                <form id="loginForm">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" required>
+
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required  >
+
+                    <button type="submit">Login</button>
+                </form>
+
+    
+        </div>
+        <div class="col3">
+        </div>
+    </div>
+    <footer>
+        all tags are required
+    </footer>
+    
+    </body>
+</html>
